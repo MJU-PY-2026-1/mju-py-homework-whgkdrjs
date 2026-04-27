@@ -45,7 +45,7 @@ if stock_quantity2 == max(stock_quantities):
     print(f'가장 많이 보유한 주식: {stock_names[1]} 수량: {max_stock}')
 if stock_quantity3 == max(stock_quantities):
     print(f'가장 많이 보유한 주식: {stock_names[2]} 수량: {max_stock}')
-else:
+if stock_quantity4 == max(stock_quantities):
     print(f'가장 많이 보유한 주식: {stock_names[3]} 수량: {max_stock}')
 print()
 min_stock = min(stock_quantities)
@@ -55,7 +55,7 @@ if stock_quantity2 == min(stock_quantities):
     print(f'가장 적게 보유한 주식: {stock_names[1]} 수량: {min_stock}')
 if stock_quantity3 == min(stock_quantities):
     print(f'가장 적게 보유한 주식: {stock_names[2]} 수량: {min_stock}')
-else:
+if stock_quantity4 == min(stock_quantities): 
     print(f'가장 적게 보유한 주식: {stock_names[3]} 수량: {min_stock}')
 print()
 
